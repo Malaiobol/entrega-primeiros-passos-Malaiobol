@@ -1,69 +1,113 @@
 //NOME//
 let nome =  prompt ('Digite seu nome...');
-if (nome.length <= 05 && nome.length >=30){
+if (nome.length <= 05  || nome.length >=30){
     alert('Nome Inválido')
     nome = prompt ('Digite seu nome...')
 };
 
 //MATEMATICA//
-let materia1   = prompt ('Qual a Matéria?');
-let nota1      = parseFloat(prompt('Digite sua Nota...'));
-let presenca1  = parseInt  (prompt('Frequencia na Aula'));
 
+let notaMatematica      = parseFloat(prompt('Sua nota de Matemática'));
+let presencaMatematica  = parseInt  (prompt('Frequencia na Aula'));
+
+if (notaMatematica   <0 || notaMatematica >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Matemática'));
+    
+}
 
 //PORTUGUES//
-let materia2  = prompt ('Qual a Matéria?')
-let nota2     = parseFloat(prompt('Digite sua Nota...'));
-let presenca2 = parseInt  (prompt('Frequencia na Aula'));
+let notaPortugues     = parseFloat(prompt('Sua nota de Português'));
+let presencaPortugues = parseInt  (prompt('Frequencia na Aula'));
 
+if (notaPortugues <0 || notaPortugues >10){ 
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Português'));
+    
+}
 
 //INFORMATICA//
-let materia3  = prompt ('Qual a Matéria?')
-let nota3     = parseFloat(prompt('Digite sua Nota...'));
-let presenca3 = parseInt  (prompt('Frequencia na Aula')); 
+let notaInformatica     = parseFloat(prompt('Sua nota de Informática'));
+let presencaInformatica = parseInt  (prompt('Frequencia na Aula')); 
 
+if (notaInformatica <0 || notaInformatica >10){ 
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Informática'));
+    
+}
 
 //GEOGRAFIA//
-let materia4  = prompt ('Qual a Matéria?')
-let nota4     = parseFloat(prompt ('Digite sua Nota...'));
-let presenca4 = parseInt  (prompt('Frequencia na Aula')); 
+let notaGeografia     = parseFloat(prompt ('Sua nota de Geografia'));
+let presencaGeografia = parseInt  (prompt('Frequencia na Aula')); 
 
+if (notaGeografia <0 || notaGeografia >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Geografia'))
+    
+}
 
 //INGLÊS//
-let materia5  = prompt ('Qual a Matéria?')
-let nota5     = parseFloat(prompt ('Digite sua Nota...'));
-let presenca5 = parseInt  (prompt('Frequencia na Aula'));
+let notaIngles     = parseFloat(prompt ('Sua nota de Inglês'));
+let presencaIngles = parseInt  (prompt('Frequencia na Aula'));
+
+if (notaIngles <0 || notaIngles >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Inglês'))
+    
+}
 
 //HISTÓRIA //
-let materia6  = prompt ('Qual a Matéria?')
-let nota6     = parseFloat(prompt('Digite sua Nota...'));
-let presenca6 = parseInt  (prompt('Frequencia na Aula')); 
+let notaHistoria     = parseFloat(prompt('Sua nota de História'));
+let presencaHistoria = parseInt  (prompt('Frequencia na Aula')); 
 
+if (notaHistoria <0|| notaHistoria >10){ 
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de História'));
+    
+}
 
 //FILOSOFIA //
-let materia7  = prompt ('Qual a Matéria?')
-let nota7     = parseFloat(prompt('Digite sua Nota...'));
-let presenca7 = parseInt  (prompt('Frequencia na Aula')); 
+let notaFilosofia     = parseFloat(prompt('Sua nota de Filosofia'));
+let presencaFilosofia = parseInt  (prompt('Frequencia na Aula')); 
+
+if (notaFilosofia <0 || notaFilosofia >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Filosofia'))
+    
+}
 
 //SOCIOLOGIA//
-let materia8  = prompt ('Qual a Matéria?')
-let nota8     = parseFloat(prompt('Digite sua Nota...'));
-let presenca8 = parseInt  (prompt('Frequencia na Aula')); 
+let notaSociologia     = parseFloat(prompt('Sua nota de Sociologia'));
+let presencaSociologia = parseInt  (prompt('Frequencia na Aula')); 
+
+if (notaSociologia <0 || notaSociologia >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Sociologia'));
+    
+}
 
 //LITERATURA//
-let materia9  = prompt ('Qual a Matéria?')
-let nota9     = parseFloat(prompt('Digite sua Nota...'));
-let presenca9 = parseInt(prompt('Frequencia na Aula')); 
+let notaLiteratura     = parseFloat(prompt('Sua nota de Literatura'));
+let presencaLiteratura = parseInt  (prompt('Frequencia na Aula')); 
 
+if (notaLiteratura <0 || notaLiteratura >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Literatura'))
+    
+}
 
 //EDUCAÇÃO-FÍSICA//
-let materia    = prompt ('Qual a Matéria?')
-let nota10     = parseFloat(prompt('Digite sua Nota...'));
-let presenca10 = parseInt(prompt('Frequencia na Aula')); 
+let notaEducacaoFisica     = parseFloat(prompt('Sua nota de Educação Física'));
+let presencaEducacaoFisica = parseInt  (prompt('Frequencia na Aula')); 
 
+if (notaEducacaoFisica <0 || notaEducacaoFisica >10){
+    alert=('Nota Invalida')
+    NotaInformatica = parseFloat(promprt('Sua nota de Educação Física'));
+    
+}
 
-let notaTotal= Number(nota1)+ Number(nota2)+ Number(nota3)+ Number(nota4)+ Number(nota5)+ Number(nota6)+ Number(nota7)+ Number(nota8)+ Number(nota9) + Number(nota10);
-let presencaTotal = Number(presenca1) + Number(presenca2) + Number(presenca3) + Number(presenca4)+ Number(presenca5)+ Number(presenca6)+ Number(presenca7)+ Number(presenca8) + Number(presenca9) + Number(presenca10)
+let notaTotal= Number(notaMatematica)+ Number(notaPortugues)+ Number(notaInformatica)+ Number(notaGeografia)+ Number(notaIngles)+ Number(notaHistoria)+ Number(notaFilosofia)+ Number(notaSociologia)+ Number(notaLiteratura) + Number(notaEducacaoFisica);
+let presencaTotal = Number(presencaMatematica) + Number(presencaPortugues) + Number(presencaInformatica) + Number(presencaGeografia)+ Number(presencaIngles)+ Number(presencaHistoria)+ Number(presencaFilosofia)+ Number(presencaSociologia) + Number(presencaLiteratura) + Number(presencaEducacaoFisica);
 let mediaNota = Number(notaTotal) / 10
 let mediaPresenca = Number(presencaTotal) /10
 
